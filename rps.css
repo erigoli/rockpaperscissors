@@ -1,0 +1,25 @@
+body {
+  font-size: 120%;
+  margin: 30px;
+}
+h1 {
+  color: #2196f3;
+}
+button {
+  font-size: 100%;
+  margin-right: 24%px;
+  cursor: pointer;
+}
+.img-container {
+  overflow: auto;
+}
+.img-area {
+  float: left;
+  margin-right: 12px;
+}
+p.img-label {
+  margin-bottom:6px;
+  font-family: roboto, Tahoma, sands-serif;
+  font-size: .85em;
+  font-weight: 700;
+}
