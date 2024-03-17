@@ -1,31 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rock Paper Scissors</title>
-  <link rel="stylesheet" href="rps.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" type="text/css" href="rps.css">
 </head>
 <body>
-  <h1>Rock-Paper-Scissors</h1>
-  <p>Play against the computer:</p>
-  <p></p>
-  <button id="rock-btn" onclick="pickRock()">Rock</button>&nbsp;
-  <button id="paper-btn" onclick="pickPaper()">Paper</button>&nbsp;
-  <button id="scissors-btn" onclick="pickScissors()">Scissors</button>&nbsp;
-  <div class="img-container">
-    <div class="img-area">
-      <p class="img-label">Computer:</p>
-      <div id="c-choice-img">
-      </div>
+    <h1>Rock Paper Scissors</h1>
+    <div class="game">
+        <div class="choices">
+            <button class="btn" onclick="playGame('rock')">Rock</button>
+            <button class="btn" onclick="playGame('paper')">Paper</button>
+            <button class="btn" onclick="playGame('scissors')">Scissors</button>
+        </div>
+        <div id="result"></div>
     </div>
-    <div class="img-area">
-      <p class="img-label">You:</p>
-      <div id="your-choice-img">
-      </div>
-    </div>
-  </div>
-  <h2 id ="message"></h2>
-  <script src="rps.js"></script>
+
+    <script src="rps.js"></script>
 </body>
 </html>
